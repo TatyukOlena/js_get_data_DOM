@@ -1,0 +1,2 @@
+"use strict";var population=document.getElementsByClassName("population"),numbers=Array.from(population).map(function(t){return Number(t.textContent.replaceAll(/[, ]/g,""))}),total=numbers.reduce(function(t,e){return t+e},0),average=Math.round(total/population.length),avg=document.getElementsByClassName("average-population")[0];avg.innerHTML=average.toLocaleString("en-US");var totl=document.getElementsByClassName("total-population")[0];totl.innerHTML=total.toLocaleString("en-US");
+//# sourceMappingURL=js_get_data_DOM.d4e13220.js.map
